@@ -14,6 +14,7 @@
 6. [Paso 4: Análisis de Retención por Cohortes (Foco Principal)](#6-paso-4-análisis-de-retención-por-cohortes-foco-principal)
 7. [Paso 5: Evaluación de Impacto (Test A/B de Checkout)](#7-paso-5-evaluación-de-impacto-test-ab-de-checkout)
 8. [Recomendaciones Estratégicas](#8-recomendaciones-estratégicas)
+9. [Estructura del Repositorio](#9-estructura-del-repositorio)
 
 ---
 
@@ -92,3 +93,11 @@ Se evaluó el impacto de un cambio en la interfaz de usuario (UI) del checkout u
 2. **Aprovechar la Alta Retención Temprana:** Dado que el ~42% de los usuarios se retiene de forma estable hasta la semana 3[cite: 6], se recomienda diseñar campañas de fidelización y notificaciones personalizadas justo antes de la semana 4 para consolidar la lealtad a largo plazo.
 3. **Auditoría de Costos de Proveedores:** Revisar la estructura de costos de artículos específicos con márgenes negativos para blindar la rentabilidad neta general de la plataforma.
 4. **Pausar Despliegue Masivo de UI:** Al no mostrar impactos significativos en el test A/B, se aconseja reevaluar los costos de ingeniería del rediseño del checkout antes de destinar más recursos técnicos.
+
+---
+
+## 9. Estructura del Repositorio
+```text
+├── images/                    # Visualizaciones y gráficos del análisis
+├── notebook/                  # Jupyter Notebook con el análisis completo (Colab)
+└── README.md                  # Documentación del proyecto
